@@ -1,0 +1,79 @@
+
+.compose-screen{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 1px 5px 8px 0px;
+    position: absolute;
+    bottom: 0;
+    right: 10vw;
+    gap:20px;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.send-compose-btn{
+    color: white;
+}
+
+.compose-screen header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.compose-screen header h4{
+    margin-bottom: 0;
+}
+
+.compose-screen header button {
+    min-width: none;
+    width: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.compose-screen input[type="text"] {
+    height: 10px;
+    border: none;
+}
+.compose-screen input:focus{
+    outline: none;
+}
+.compose-screen input[type="textarea"] {
+    border: 1px solid rgb(217, 215, 215);
+}
+.compose-screen label {
+    
+    border-bottom: 1px solid rgb(225, 224, 224);
+}
+
+.compose-screen button{
+    background-color: #0b57d0;
+    font-weight: 500;
+    border: none;
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+}
+
+
+
+@media (max-width: 700px){
+.compose-screen{
+    top: 0;
+    right: 0;
+    height: 190vh;
+    width: 100vw;
+    border-radius: 0;
+    padding: 0;
+    padding: 50px;
+}
+
+.compose-screen input[type="textarea"] {
+    height: 50vh;
+}
+}

@@ -1,0 +1,13 @@
+.mail-list{
+    flex-basis: 75%;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    background-color: white;
+    border-radius: 20px;
+}
+@media (max-width: 700px){
+    .mail-list{
+        /* text-align: center; */
+        flex-grow: 1;
+    }
+}

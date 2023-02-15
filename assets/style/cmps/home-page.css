@@ -1,0 +1,30 @@
+.home-page{
+    padding: 20px;
+    display: flex;
+    /* flex-direction: column; */
+}
+.app-img{
+    justify-content: start;
+    align-items: center;
+}
+.big{
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.app-img img{
+    width: 50px;
+}
+.gmail{
+    height: 70px;
+    width: 200px;
+}
+.gml{
+    margin-right: 5px;
+}
+
+@media(max-width:500px){
+    .home-page{
+        flex-direction: column;
+    }
+}

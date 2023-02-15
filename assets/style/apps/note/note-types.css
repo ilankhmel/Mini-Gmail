@@ -1,0 +1,50 @@
+/* note-todo */
+.done {
+    text-decoration: line-through;
+}
+
+.todo-task {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    align-items: center;
+}
+.todos-input-container {
+    flex-wrap: wrap;
+}
+.todos-input-container input{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin-inline-end: 2rem;
+    padding: 0.4rem;
+}
+/* .todos-input-container button {
+    display: inline-block;
+} */
+.todo-container{
+    padding: 15px 15px;
+}
+.todo-container h3 {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    padding-inline-start: 10px;
+}
+
+
+@media(max-width:720px){
+    .btn-setters{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .todos-input-container input{
+        margin-inline-end: 0px;
+    }
+    .todos-input-container{
+        width: 100%;
+    }
+    .input-container{
+        padding-inline-start: 0;
+        padding: 0 1rem;
+    }
+}

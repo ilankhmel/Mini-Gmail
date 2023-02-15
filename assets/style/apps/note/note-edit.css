@@ -1,0 +1,40 @@
+.note-edit {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    color: #000000DE;
+    font-family: 'roboto-regular';
+}
+
+.note-edit input, .todo-edit input {
+    padding: .75rem;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-block-end: 10px;
+    background: transparent;
+}
+
+.note-edit button, .todo-edit button, button.save-todo-btn {
+    width: 100px;
+    padding: .5rem;
+    background-color: inherit;
+    border: none;
+    margin-block-start: .5rem;
+    transition: .5s;
+}
+
+.note-edit button:hover, .todo-edit button:hover, button.save-todo-btn:hover {
+   border-radius: 8px;
+   background: rgba(0, 0, 0, 0.05);
+}
+.todo-edit {
+    flex-wrap: wrap;
+}
+
+.note-edit , .todo-edit{
+    padding: 3rem;
+}
+
+.content-container h2 {
+    font-size: 16px;
+}

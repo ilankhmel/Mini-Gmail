@@ -1,0 +1,47 @@
+.mail-filter {
+    position: relative;
+    display: flex;
+    justify-content: start;
+
+    align-items: center;
+    padding-right: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-right: 0;
+}
+
+.mail-filter input {
+    height: 40px;
+    width: 40%;
+    border: none;
+    border-radius: 10px;
+    background-color: #e0ecfc;
+    flex-grow: 1;
+}
+
+.mail-filter ::placeholder {
+    color: rgb(73, 71, 71);
+}
+
+.mail-filter button {
+
+    min-width: none;
+    min-height: auto;
+}
+
+@media (max-width: 700px) {
+
+    .mail-filter {
+
+        padding-right: 10px;
+        padding-left: 0px;
+    }
+
+    .mail-filter input {
+        width: 80%;
+    }
+
+    .mail-filter {
+        position: static;
+    }
+}

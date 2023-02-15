@@ -1,0 +1,43 @@
+header{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: start;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header a{
+  margin-right: 20px;
+}
+header nav a:hover {
+text-decoration: underline;
+}
+.app-header {
+  width: 100%;
+  /* justify-content: space-between; */
+}
+.app-header .logo-section {
+  flex-wrap: nowrap;
+  width: 250px;
+  flex-direction: row;
+}
+.app-header {
+  background-color: white;
+  align-items: center;
+  color: rgb(48, 47, 47);
+  padding: 1em;
+  height: 10vh;
+  /* border-bottom:0.8px solid #606060; */
+}
+.app-header h1 {
+  margin-right: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.site-logo{
+  width: 50px;
+}
+

@@ -1,0 +1,27 @@
+/* Setup */
+@import 'setup/vars.css';
+@import 'setup/typography.css';
+
+/* Base */
+@import 'base/base.css';
+@import 'base/helpers.css';
+@import 'base/layout.css';
+@import 'base/forms.css';
+
+/* General Components */
+@import 'cmps/home-page.css';
+@import 'cmps/app-header.css';
+@import 'cmps/app-footer.css';
+@import 'cmps/user-msg.css';
+
+/* Apps */
+@import './apps/mail/email-app.css';
+/* notes */
+@import 'apps/note/note-app.css';
+@import 'apps/note/note-preview.css';
+@import 'apps/note/note-types.css';
+@import 'apps/note/add-note.css';
+@import 'apps/note/note-filter.css';
+@import 'apps/note/note-list.css';
+@import 'apps/note/note-edit.css';
+

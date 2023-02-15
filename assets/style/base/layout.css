@@ -1,0 +1,33 @@
+.main-layout {
+  margin: 0 auto;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+
+/* #keepApp# */
+.notes-app-w {
+  width: calc(100vw - 3rem);
+  height: 90vh;
+}
+
+/* footer */
+.app-footer {
+  height: 4vh;
+}
+
+@media (max-width: 620px) {
+  .app-footer {
+      font-size: .775rem;
+  }
+}
+
+/* app-header */
+.app-header {
+
+  height: 10vh;
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
+}
